@@ -1,0 +1,10 @@
+#img-header{
+    position: relative;
+    
+}
+body{ margin:0;
+box-sizing: border-box;}
+#img-header img{
+max-width: 100%;
+height: auto;
+}
