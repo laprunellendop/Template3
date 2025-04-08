@@ -7,17 +7,24 @@
     <title>Template3</title>
 </head>
 <body>
-    <header id="img-header" style="max-width:1600px;">
-        <img src="images/photographer.jpg" alt="" style="width:1600px;height:600px">
+    <header id="img-content" style="max-width:1500px;">
+        <img src="images/photographer.jpg" alt="" style="width:1500px;" height="700">
         <div id="center-text">
-            <h1><span style="font-size: 50px;">JANE DOE</span><br><span style="font-size: 24px;">PHOTOGRAPHER</span></h1>
+            <h1><span style="font-size: 47px;">JANE DOE</span></h1>
+            <h6 class="display-small"><span>JANE DOE</span></h6>
+            <h4><span style="font-size: 22px;">PHOTOGRAPHER</span></h4>
         </div>
-        <div id="center-bottom">
+        <div id="center-bottom" style="bottom:-8px;">
             <a href="#home">Home</a>
             <a href="#portfolio">Portfolio</a>
-            <a href="">Contact</a>
+            <a href="#content-contact">Contact</a>
         </div>
     </header>
+    <div id="display-small-bar" >
+        <a href="#home">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#content-contact">Contact</a>
+    </div>
     <div class="content-menu" id="portfolio">
         <div class="padding-16">
             <img src="images/ocean.jpg" alt="" style="width:100%">
@@ -34,9 +41,28 @@
         <div class="padding-16">
             <img src="images/mountains2.jpg" alt="" style="width:100%">
         </div>
+        <div id="content-contact" >
+            <h2>Contact</h2>
+            <hr>
+            <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus.</p>
+        <form action="">
+        <div class="section">
+            <label for="">Name</label>
+            <input type="text" >
+        </div>
+        <div class="section">
+            <label for="">Email</label>
+            <input type="email" >
+        </div>
+       <div class="section">
+            <label for=""> Message</label> 
+            <input type="text" >
+       </div>
+       <input type="submit" value="SEND">
+        </form>
+        <p id="footer">Powered by <a href="">w3.css</a></p>
+        </div>
     </div>
-    <div id="content-contact" >
-
-    </div>
+    
 </body>
 </html>
